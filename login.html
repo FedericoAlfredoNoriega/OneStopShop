@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Log in </title>
+</head>
+
+<body>
+    <div class="grilla">
+    < <header class="header">
+        <img src="./img/Final Logo.png" alt="ONESTOPSHOP" class="logodesktop">
+    </header>
+    <nav class="nav">
+        <ul class="listnav">
+            <li><a href="./index.html">Inicio</a></li>
+            <li><a href="./moda.html">Moda</a></li>
+            <li><a href="./tecnologia.html">Tecnologia</a></li>
+            <li><a href="./vender.html">Vender</a></li>
+            <li><a href="./categorias.html">Categorias</a>
+                <ul class="submenu">
+                    <li><a href="#">Usados</a></li>
+                    <li><a href="#">Recicla</a></li>
+                </ul>
+            <li>
+                <a href="./login.html">Log in</a>
+            </li>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <!-- Get: informacion no sensible, post: informacion sensible - # es pq la info no va a ningun lado-->
+        <form action="#" method="get" class="formulario">
+            <!-- entrada de información por parte del usuario y depende del valor es que varia la etiqueta -->
+            <!-- el name, queda en el link y es la forma para que la información viaje(la parte back) y se vea en el link, si pongo post el nombre como info no se muestra mas -->
+            <!-- place holder, es el texto fantasma -->
+            <!--      <input type="email" placeholder="Email"> -->
+            <br>
+            <label for="user-name">User name</label>
+            <input type="user-name" name="user-name" id="user-name">
+            <br>
+            <br>
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email">
+            <br>
+            <br>
+            <!-- para que me guarde la contraseña, el id conecta que la contraseña viene de arriba se usa el for con el id-->
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password">
+            <!-- Checkbox -->
+            <label>
+                <br>
+                <br>
+                <input type="checkbox">
+                <span>Subscribe to our online e-newsletter </span>
+            </label>
+            <!-- Radio button -->
+            <label>
+                <br>
+                <br>
+                <span>Man</span>
+                <input name="sexo" value="hombre" type="radio">
+
+                <span>Woman</span>
+                <input name="sexo" value="mujer" type="radio">
+
+                <span>Other</span>
+                <input name="sexo" value="otro" type="radio">
+                <br><br>
+                <select name="Country">
+                    <option value="seleccion">Choose your Country</option>
+                    <option value="arg">Argentina</option>
+                    <option value="bel">Belgium</option>
+                    <option value="ale">Germany</option>
+                    <option value="bra">Brazil</option>
+                    <option value="ita">Italy</option>
+                    <option value="chi">Chile</option>
+                    <option value="per">Peru</option>
+                    <option value="mex">Mexico</option>
+                    <option value="usa">United States</option>
+                </select>
+                <br><br>
+                <input type="submit">
+                <input type="reset" value="Reset">
+            </label>
+
+        </form>
+    </main>
+    <footer class="footer">
+        <ul>
+            <li>
+                <a href="https://www.instagram.com/" target="_blank" class="fa fa-instagram"></a>
+                <a href="https://www.facebook.com/" target="_blank" class="fa fa-facebook"></a>
+                <a href="https://twitter.com/?lang=es" target="_blank" class="fa fa-twitter"></a>
+            </li>
+        </ul>
+    </footer>
+</div>
+</body>
+
+</html>
