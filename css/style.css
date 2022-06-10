@@ -53,7 +53,7 @@
 
 /* Para darle un color cuando pase el mouse por el link y asignamos la transicion de segundos que le mouse pasa por el mismo*/
 .listnav li a:hover {
-    color: grey;
+    color: white;
     transition: all .3s;
 }
 
