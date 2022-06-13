@@ -136,6 +136,7 @@
     text-align: center;
     display: flex;
     flex-direction: column;
+    background-image: linear-gradient(to bottom,black,white);
 }
 
 .footer li a {
