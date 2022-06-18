@@ -132,21 +132,23 @@
 
 .footer {
     grid-area: footer;
-    background-color: black;
+    background-color: 33,37,41;
     text-align: center;
     display: flex;
     flex-direction: column;
-    background-image: linear-gradient(to bottom,black,white);
+    list-style: none;
 }
 
 .footer li a {
     padding: 50px; 
     color: white;
     text-decoration: none;
+    list-style: none;
 }
 
 .footer li:hover {
     color: grey;
+    list-style: none;
 }
 
 /*  RESPONSIVE DESING - MEDIA QUERY - MOBILE LAST */
