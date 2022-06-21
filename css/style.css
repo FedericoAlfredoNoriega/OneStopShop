@@ -22,80 +22,6 @@
     color: white;
 }
 
-/* NAV */
-.nav {
-    grid-area: nav;
-    display: flex;
-}
-
-.listnav {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    list-style: none;
-    text-decoration: none;
-}
-
-/* Para que se vayan los puntitos de la lista */
-.listnav li {
-    list-style: none;
-    padding: 20px;
-}
-
-/* text decoration es para sacarle el subrayado al link */
-.listnav li a {
-    color: white;
-    list-style: none;
-    margin: 25px;
-    text-decoration: none;
-}
-
-/* Para darle un color cuando pase el mouse por el link y asignamos la transicion de segundos que le mouse pasa por el mismo*/
-.listnav li a:hover {
-    color: white;
-    transition: all .3s;
-}
-
-/* SUB MENU */
-.submenu {
-    position: absolute;
-    background-color: black;
-    display: none;
-    border-radius: 15px;
-}
-
-.submenu li a {
-    display: block;
-    padding: 0px;
-    margin: 0px;
-    color: white;
-    text-decoration: none;
-}
-
-.listnav li:hover .submenu {
-    display: block;
-}
-
-/* END SUB MENU */
-/* END NAV */
-
-
-/* HEADER FORMAT START */
-.header {
-    grid-area: header;
-    display: flex;
-    justify-content: flex-end;
-}
-
-.logodesktop {
-    width: 70px;
-    height: 60px;
-    padding: 10px;
-}
-
-/* HEADER FORMAT END */
-
 .section1 {
     grid-area: section1;
 }
@@ -117,7 +43,7 @@
 .box1 {
     width: 100%;
     padding: 5px;
-    margin: 5px;
+    margin: 0px;
 }
 
 .section3 {
@@ -137,6 +63,10 @@
     display: flex;
     flex-direction: column;
     list-style: none;
+}
+.footer li{
+    list-style: none;
+    text-decoration: none;
 }
 
 .footer li a {
