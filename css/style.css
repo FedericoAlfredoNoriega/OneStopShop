@@ -58,19 +58,20 @@
 
 .footer {
     grid-area: footer;
-    background-color: 33,37,41;
+    background-color: 33, 37, 41;
     text-align: center;
     display: flex;
     flex-direction: column;
     list-style: none;
 }
-.footer li{
+
+.footer li {
     list-style: none;
     text-decoration: none;
 }
 
 .footer li a {
-    padding: 50px; 
+    padding: 50px;
     color: white;
     text-decoration: none;
     list-style: none;
@@ -81,59 +82,23 @@
     list-style: none;
 }
 
+.newform {
+    background-image:linear-gradient(to bottom right, #f8f9fa,rgb(238, 237, 237));
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    text-decoration-color: white;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
 /*  RESPONSIVE DESING - MEDIA QUERY - MOBILE LAST */
 /*  MOBILE LAST = MAX-WIDTH*/
 
-@media(max-width: 768px) {
-   
-    .listnav li {
-        list-style: none;
-        padding: 5px;
-        font-size: small;
-    }
-
-    .listnav li a {
-        margin: 5px;
-    }
-
-    .logodesktop {
-        width: 35px;
-        height: 30px;
-        padding: 5px;
-    }
-}
-
-@media(max-width: 1024px) {
-
-    .listnav li {
-        list-style: none;
-        padding: 5px;
-        font-size: small;
-        margin: 5px;
-    }
-
-}
-
 @media(max-width: 425px) {
-   
-    .listnav li {
-        list-style: none;
-        padding: 0px;
-        font-size: 7px;
-    }
-
-    .listnav li a {
-        margin: 0px;
-    }
-
-    .logodesktop {
-        width: 17.5px;
-        height: 15px;
-        padding: 2.5px;
-    }
 
     .footer li a {
-        padding: 20px; 
+        padding: 20px;
         color: white;
         text-decoration: none;
     }
