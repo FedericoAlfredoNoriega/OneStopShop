@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto&display=swap');
-
+@import './footer.scss';
 
 * {
     margin: 0;
@@ -52,34 +52,6 @@
 
 .box6 {
     width: 100%;
-}
-
-/* FOOTER */
-
-.footer {
-    grid-area: footer;
-    background-color: 33, 37, 41;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    list-style: none;
-}
-
-.footer li {
-    list-style: none;
-    text-decoration: none;
-}
-
-.footer li a {
-    padding: 50px;
-    color: white;
-    text-decoration: none;
-    list-style: none;
-}
-
-.footer li:hover {
-    color: grey;
-    list-style: none;
 }
 
 .newform {
