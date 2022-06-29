@@ -1,0 +1,10 @@
+En el archivo index.html sumé el SEO con las siguientes características:
+
+Descripción: mediante la etiqueta meta name description, agregué el siguiente párrafo que explica en pocas palabras el contenido de mi sitio: “One stop Shop offers smartphones, tablets, personal computers (PCs), portable and wearable
+devices. The company also offers software and related services, accessories, networking solutions, and third-party digital content and applications."
+
+Palabras clave: mediante la etiqueta meta name keywords, agregué las palabras clave que acompañarán a todas las páginas de mi sitio: "apple,iPhone,iPad,tablet,celulares,tecnologia,innovation"
+
+Title: agrege en todas las secciones el nombre de la marca seguido de la seccion en donde se encuentra el usuario ejemplo: "One Stop Shop | log in"
+
+Encabezado: para el encabezado del h1 utilicé el texto “One Stop Shop”
