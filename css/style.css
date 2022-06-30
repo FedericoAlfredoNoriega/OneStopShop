@@ -22,6 +22,12 @@
   color: grey;
   list-style: none; }
 
+@media (max-width: 425px) {
+  .footer li a {
+    padding: 20px;
+    color: white;
+    text-decoration: none; } }
+
 .h1fashion {
   text-align: center;
   position: relative;
@@ -53,6 +59,9 @@
   width: 100%;
   cursor: pointer;
   transition: 1s; }
+
+.img-gallery img:hover {
+  transform: scale(1.2); }
 
 @media screen and (max-width: 425px) {
   .h1fashion {
@@ -113,8 +122,3 @@
 
 /*  RESPONSIVE DESING - MEDIA QUERY - MOBILE LAST */
 /*  MOBILE LAST = MAX-WIDTH*/
-@media (max-width: 425px) {
-  .footer li a {
-    padding: 20px;
-    color: white;
-    text-decoration: none; } }

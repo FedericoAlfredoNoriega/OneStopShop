@@ -24,3 +24,11 @@
     color: grey;
     list-style: none;
 }
+@media(max-width: 425px) {
+
+    .footer li a {
+        padding: 20px;
+        color: white;
+        text-decoration: none;
+    }
+}

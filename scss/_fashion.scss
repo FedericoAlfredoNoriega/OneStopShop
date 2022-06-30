@@ -35,6 +35,11 @@
     transition: 1s;
 }
 
+.img-gallery img:hover{
+    transform: scale(1.2);
+}
+
+
 @media screen and (max-width: 425px) {
 
     .h1fashion{
