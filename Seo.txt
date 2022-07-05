@@ -7,4 +7,4 @@ Palabras clave: mediante la etiqueta meta name keywords, agregué las palabras c
 
 Title: agrege en todas las secciones el nombre de la marca seguido de la seccion en donde se encuentra el usuario ejemplo: "One Stop Shop | log in"
 
-Encabezado: para el encabezado del h1 utilicé el texto “One Stop Shop”
+Encabezado: para el encabezado dell h1 utilicé el texto “One Stop Shop”
