@@ -4,12 +4,10 @@
     overflow: hidden;
 }
 .middle{
-    position: absolute;
+    position: relative;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
 }
-
 .navigation{
     position: absolute;
     bottom: 20px;
