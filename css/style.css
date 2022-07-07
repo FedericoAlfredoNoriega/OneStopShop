@@ -108,8 +108,8 @@
   font-size: small; }
 
 .slidershow {
-  width: 700px;
-  height: 750px;
+  width: 80%;
+  height: 50%;
   overflow: hidden; }
 
 .middle {
@@ -118,8 +118,8 @@
 
 .navigation {
   position: absolute;
-  bottom: 20px;
-  left: 50%;
+  bottom: 1%;
+  left: 60%;
   transform: translateX(-50%);
   display: flex; }
 
@@ -165,6 +165,13 @@ input[name="r"] {
 
 #r5:checked ~ .s1 {
   margin-left: -80%; }
+
+@media (max-width: 425px) {
+  .navigation {
+    width: 70%;
+    height: auto; }
+  .slidershow {
+    width: 92%; } }
 
 * {
   margin: 0;
