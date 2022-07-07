@@ -1,6 +1,7 @@
 .slidershow.middle{
     width: 100%;
     height: auto;
+    left: 25%;
 } 
 
 .slidershow{
@@ -13,7 +14,7 @@
 .navigation{
     position: absolute;
     bottom: 1%;
-    left: 60%;
+    left: 26%;
     transform: translateX(-50%);
     display: flex;
 
@@ -77,17 +78,14 @@ input[name="r"]{
     .navigation {
     width: 70%;
     height: auto;
-    left: 60%;
+    left: 61%;
     }
     
-    .slidershow {
-        width: 92%;
-    }
     .slide img{
             width: 90%;
         }
     .slidershow.middle {
-            left: -10%;
+            left: -21%;
 }
 }
 
