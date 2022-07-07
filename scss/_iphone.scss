@@ -1,7 +1,9 @@
+.slidershow.middle{
+    width: 100%;
+    height: auto;
+} 
 
 .slidershow{
-    width: 80%;
-    height: 50%;
     overflow: hidden;
 }
 .middle{
@@ -48,8 +50,8 @@ input[name="r"]{
 }
 
 .slide img{
-    width: 100%;
-    height:100%;
+    width: 30%;
+    height:auto;
 }
 
 #r1:checked ~ .s1{
