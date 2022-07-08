@@ -171,13 +171,13 @@ input[name="r"] {
 
 @media (max-width: 425px) {
   .navigation {
-    width: 70%;
+    width: 60%;
     height: auto;
-    left: 61%; }
+    left: 63%; }
   .slide img {
     width: 90%; }
   .slidershow.middle {
-    left: -21%; } }
+    left: -10%; } }
 
 * {
   margin: 0;
