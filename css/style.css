@@ -201,7 +201,7 @@ input[name="r"] {
   text-align: center;
   position: relative;
   width: 80%;
-  margin: 20px auto; }
+  margin: 10px auto; }
 
 .h1iphones::before {
   content: "";
