@@ -169,6 +169,26 @@ input[name="r"] {
 #r5:checked ~ .s1 {
   margin-left: -80%; }
 
+.h1iphones {
+  text-align: center;
+  position: relative;
+  width: 80%;
+  margin: 20px auto; }
+
+.h1iphones::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  background-color: black;
+  top: 50%;
+  z-index: -1; }
+
+.h1iphones span {
+  background-color: white;
+  padding: 0 15px; }
+
 @media (max-width: 425px) {
   .navigation {
     width: 60%;
@@ -178,6 +198,14 @@ input[name="r"] {
     width: 90%; }
   .slidershow.middle {
     left: -10%; } }
+
+@media screen and (max-width: 425px) {
+  .h1iphones {
+    text-decoration: wavy; }
+  .h1iphones::before {
+    display: none; }
+  .h1iphones span {
+    padding: 0; } }
 
 * {
   margin: 0;
