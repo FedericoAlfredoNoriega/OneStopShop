@@ -39,4 +39,37 @@
     font-size: small;
 }
 
+.h1accessories{
+    text-align: center;
+    position: relative;
+    width: 80%;
+    margin: 20px auto;
+}
 
+.h1accessories::before{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    z-index: -1;
+}
+
+.h1accessories span{
+    background-color: white;
+    padding: 0 15px;
+}
+@media screen and (max-width: 425px) {
+
+    .h1accessories{
+        text-decoration:wavy;
+    }
+    .h1accessories::before{
+        display: none;
+    }
+    .h1accessories span{
+        padding: 0;
+    }
+    }
